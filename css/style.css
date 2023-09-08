@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&displat-swap);
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    line-height: 1;
+    font-family: Poppins;
+    color: rgb(22, 2, 2);
+}
+
+ul{
+}
+
+a {
+    text-decoration: none;
+}
+
+
+li{
+    list-style: none;
+}
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #d4cfcb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.page{
+    flex: 1 1 auto;
+    background-color: #d6d6d6
+}
+
+[class*="__container"] {
+max-width: 1230px;
+margin: 0 auto;
+padding: 0px 15px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.header__container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    gap: 131px;
+    align-items: center;
+    min-height: 152;
+}
+
+.header__logo {  
+}
+.header__menu{
+    }
+
+.menu {
+}
+
+.menu__list {
+    display: flex;
+    gap: 56px;
+}
+
+.menu__item {
+}
+
+.menu__link {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.page {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.main__content {
+    background: green;
+}
+.main-image {
+    max-width: 100%;
+    height: 400px;
+ 
+}
+
+.main__title{
+   
+  align-items: center;
+  justify-content: space-around;
+    background: gold;
+    max-width: 100%;
+    width: 300px;
+    margin: auto;
+        }
+
+        .main__text{ 
+            justify-content: space-around;
+            background: red;
+            max-width: 100%;
+            width: 300px;
+            margin: auto;
+        }
+    .button__img {
+        justify-content: space-around;
+                      max-width: 100%;
+            width: 300px;
+            margin: auto;
+            padding: 20px 0 
+       
+    }
+
+    .telegram__img{
+        justify-content: space-around;
+                      max-width: 100%;
+            width: 300px;
+            margin: auto;
+            padding: 20px 0 
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: raw;
+    }
+    .footer__linl-a {
+        padding: 15px
+    }
+    .footer__link{
+        background: orange;
+        text-align: center;
+        
+    }
+    .footer__top{
+        background: green;
+        text-align: center;
+    }
